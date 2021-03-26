@@ -1,0 +1,35 @@
+.rootModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -25%;
+  width: 50%;
+  height: 30%;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #000;
+}
+.Heading {
+  background-color: orange;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.mainDiv {
+  background: rgb(93, 93, 212);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.divLeft {
+}
+
+.divRight {
+  margin-left: auto;
+  margin-right: 0px;
+  /* background-color: brown; */
+  align-items: center;
+  justify-content: center;
+}
